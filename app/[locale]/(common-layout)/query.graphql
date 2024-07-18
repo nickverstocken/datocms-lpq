@@ -31,9 +31,6 @@ query CommonLayout($locale: SiteLocale, $fallbackLocale: [SiteLocale!]) {
         }
       }
     }
-    notification {
-      value
-    }
     footerSubtitle
     footerLogo {
       url
